@@ -1,73 +1,71 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.div`
-  .education {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+`;
+const Title = styled.h2`
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 20px;
+`;
+const Item = styled.article`
+  margin-bottom: 10px;
+`;
+const MainInfo = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+const Institution = styled.div`
+  font-weight: bold;
+  font-size: 15px;
 
-    &__title {
-      text-transform: uppercase;
-      font-size: 15px;
-      font-weight: 600;
-      margin: 0 0 20px;
+  a {
+    &,
+    &:visited,
+    &:active {
+      color: #04a0ca;
+      text-decoration: none;
     }
-
-    &__item {
-      margin-bottom: 10px;
-    }
-
-    &__mainInfo {
-      display: flex;
-      justify-content: space-between;
-    }
-
-    &__organization {
-      font-weight: bold;
-      font-size: 15px;
-
-      &--link {
-        &, &:visited, &:active {
-          color: #04a0ca;
-          text-decoration: none;
-        }
-      }
-    }
-
-    &__period {
-      font-size: 15px;
-      font-weight: 500;
-      white-space: nowrap;
-    }
-
-    &__jobTitle {
-      margin: 0 0 15px;
-      font-size: 15px;
-      font-weight: 500;
-    }
-
-    &__desc {
-      font-size: 12px;
-      font-weight: 500;
-    }
-  }`;
+  }
+`;
+const Period = styled.div`
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+`;
+const Degree = styled.h4`
+  margin: 0 0 15px;
+  font-size: 15px;
+  font-weight: 500;
+`;
+const Summary = styled.div`
+  font-size: 12px;
+  font-weight: 500;
+`;
 
 function Education() {
-  return <Wrapper>
-      <h2 className="education__title">Education</h2>
-    
-      <article className="education__item">
-        <div className="education__mainInfo">
-          <div className="education__organization">SHOUBRA FACULTY OF ENGINEERING - BENHA UNIVERSITY</div>
-          <div className="education__period">2009 - 2015</div>
-        </div>
-      
-        <h4 className="education__jobTitle">Bachelor’s Degree, Electrical Power Department,</h4>
-      
-        <p className="education__desc">
-          IT Member at ( LIFE student activity ), IT Member at ( IEEE branch ), IT Head at ( Utopia Familty ).
-        </p>
-      </article>
-  </Wrapper>;
-}
+  return (
+    <Wrapper>
+      <Title>Education</Title>
 
+      <Item>
+        <MainInfo>
+          <Institution>
+            SHOUBRA FACULTY OF ENGINEERING - BENHA UNIVERSITY
+          </Institution>
+          <Period>2009 - 2015</Period>
+        </MainInfo>
+
+        <Degree>Bachelor’s Degree, Electrical Power Department,</Degree>
+
+        <Summary>
+          IT Member at ( LIFE student activity ), IT Member at ( IEEE branch ),
+          IT Head at ( Utopia Family ).
+        </Summary>
+      </Item>
+    </Wrapper>
+  );
+}
 
 export default Education;
