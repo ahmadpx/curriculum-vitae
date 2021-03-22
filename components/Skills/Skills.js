@@ -1,13 +1,7 @@
 import styled from "styled-components";
+import SectionTitle from "../SectionTitle";
 
 const Wrapper = styled.div``;
-const Title = styled.h2`
-  font-size: 15px;
-  font-weight: 600;
-  text-align: center;
-  text-transform: uppercase;
-`;
-
 const SkillsList = styled.ul`
   font-size: 12px;
   font-weight: 500;
@@ -18,7 +12,7 @@ const Skill = styled.li``;
 function Skills() {
   return (
     <Wrapper>
-      <Title>Skills</Title>
+      <SectionTitle>Skills</SectionTitle>
       <SkillsList>
         <Skill>JavaScript, VueJS, AngularJS, React.js, jQuery, JSX, AJAX</Skill>
         <Skill>HTML5, CSS3 , SASS , PostCSS, SEO</Skill>

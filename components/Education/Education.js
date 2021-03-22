@@ -1,13 +1,8 @@
 import styled from "styled-components";
+import SectionTitle from "../SectionTitle";
 
 const Wrapper = styled.div`
   margin-bottom: 20px;
-`;
-const Title = styled.h2`
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: 600;
-  margin: 0 0 20px;
 `;
 const Item = styled.article`
   margin-bottom: 10px;
@@ -47,7 +42,7 @@ const Summary = styled.div`
 function Education() {
   return (
     <Wrapper>
-      <Title>Education</Title>
+      <SectionTitle>Education</SectionTitle>
 
       <Item>
         <MainInfo>

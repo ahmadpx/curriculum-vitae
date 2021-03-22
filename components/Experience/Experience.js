@@ -1,14 +1,9 @@
 import styled from "styled-components";
 import { experience } from "./data";
+import SectionTitle from "../SectionTitle";
 
 const Wrapper = styled.div`
   margin-bottom: 20px;
-`;
-const Title = styled.h2`
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: 600;
-  margin: 0 0 20px;
 `;
 const Company = styled.article`
   margin-bottom: 10px;
@@ -64,7 +59,7 @@ const RolePeriod = styled.div`
 function Experience() {
   return (
     <Wrapper>
-      <Title>PROFESSIONAL EXPERIENCE</Title>
+      <SectionTitle>PROFESSIONAL EXPERIENCE</SectionTitle>
 
       {experience.map(({ company, brands, titles }) => (
         <Company key={company}>

@@ -24,13 +24,6 @@ const JobTitle = styled.h2`
   font-weight: 600;
   font-size: 15px;
 `;
-const Separator = styled.div`
-  width: 25px;
-  height: 2px;
-  background: #000;
-  margin: 0 auto 30px;
-  display: block;
-`;
 const Meta = styled.ul`
   list-style: none;
   text-align: center;
