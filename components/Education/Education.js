@@ -42,7 +42,7 @@ const Summary = styled.div`
 function Education() {
   return (
     <Wrapper>
-      <SectionTitle>Education</SectionTitle>
+      <SectionTitle align={"left"}>Education</SectionTitle>
 
       <Item>
         <MainInfo>

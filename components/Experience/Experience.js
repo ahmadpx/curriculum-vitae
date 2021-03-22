@@ -59,7 +59,7 @@ const RolePeriod = styled.div`
 function Experience() {
   return (
     <Wrapper>
-      <SectionTitle>PROFESSIONAL EXPERIENCE</SectionTitle>
+      <SectionTitle align={"left"}>PROFESSIONAL EXPERIENCE</SectionTitle>
 
       {experience.map(({ company, brands, titles }) => (
         <Company key={company}>
