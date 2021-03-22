@@ -1,44 +1,39 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-const Wrapper = styled.div`
-  .skills {
-    &__title {
-      font-size: 15px;
-      font-weight: 600;
-      text-align: center;
-      text-transform: uppercase;
-    }
-
-    &__list {
-      font-size: 12px;
-      font-weight: 500;
-      padding-left: 20px;
-    }
-
-    &__listItem {
-      margin-bottom: 5px;
-    }
-  }
+const Wrapper = styled.div``;
+const Title = styled.h2`
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
 `;
 
-function Skills() {
-  return <Wrapper>
-      <h2 className="skills__title">Skills</h2>
-      <ul className="skills__list">
-        <li className="skills__listItem">JavaScript, VueJS, AngularJS, React.js, jQuery, JSX, AJAX</li>
-        <li className="skills__listItem">HTML5, CSS3 , SASS , PostCSS, SEO</li>
-        <li className="skills__listItem">BEM, ITCSS</li>
-        <li className="skills__listItem">Git, Github, Bitbucket</li>
-        <li className="skills__listItem">Webpack, Gulp , Yarn , NPM, Bower, Yeoman</li>
-        <li className="skills__listItem">Unit test, Jest</li>
-        <li className="skills__listItem">OOP, MVC, Design Patterns, Algorithms</li>
-        <li className="skills__listItem">APIs, REST</li>
-        <li className="skills__listItem">NodeJS, PHP</li>
-        <li className="skills__listItem">Agile, JIRA, Youtrack, Teamwork, Research</li>
-        <li className="skills__listItem">Photoshop, Adobe Illustrator, Edge Animate</li>
-      </ul>
-  </Wrapper>;
-}
+const SkillsList = styled.ul`
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 20px;
+`;
+const Skill = styled.li``;
 
+function Skills() {
+  return (
+    <Wrapper>
+      <Title>Skills</Title>
+      <SkillsList>
+        <Skill>JavaScript, VueJS, AngularJS, React.js, jQuery, JSX, AJAX</Skill>
+        <Skill>HTML5, CSS3 , SASS , PostCSS, SEO</Skill>
+        <Skill>BEM, ITCSS</Skill>
+        <Skill>Git, Github, Bitbucket</Skill>
+        <Skill>Webpack, Gulp , Yarn , NPM, Bower, Yeoman</Skill>
+        <Skill>Unit test, Jest</Skill>
+        <Skill>OOP, MVC, Design Patterns, Algorithms</Skill>
+        <Skill>APIs, REST</Skill>
+        <Skill>NodeJS, PHP</Skill>
+        <Skill>Agile, JIRA, Youtrack, Teamwork, Research</Skill>
+        <Skill>Photoshop, Adobe Illustrator, Edge Animate</Skill>
+      </SkillsList>
+    </Wrapper>
+  );
+}
 
 export default Skills;
