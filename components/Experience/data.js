@@ -22,7 +22,7 @@ export const experience = [
         title: "Senior Frontend Engineer",
         period: "May 2017 – Jan 2020",
         responsibilities:
-          "As Frontend engineer at Tajawal. I'm taking ownership for the main search form for flights/hotels. and delivering features for flights product as well with high quality standards and high sense to details regarding implementation, Sharing my knowledge with the team through sessions, articles and providing my feedback and suggestion to improve the overall workflow and development cycle.",
+          "As Frontend engineer at Seera group. I'm taking ownership for their main search widget for flights/hotels. and delivering features for flights product as well with high quality standards and high sense to details regarding implementation, Sharing my knowledge with the team through sessions, articles and providing my feedback and suggestion to improve the overall workflow and development cycle.",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const experience = [
         title: "Frontend Engineer",
         period: "Jul 2015 – May 2017",
         responsibilities:
-          "As Frontend engineer at Jobzella i maintain the Frontend and enhance the user experience to meet the users and customers satisfaction using the cut edge front end technologies such as HTML5, CSS3, SASS, JavaScript, Responsive Design, jQuery, AngularJS, VueJS, Webpack, GulpJS and GIT.",
+          "As Frontend engineer at Jobzella i maintain the Frontend and enhance the user experience to meet the customers satisfaction using the cutting edge frontend technologies such as HTML5, CSS3, SASS, JavaScript, Responsive Design, jQuery, AngularJS, VueJS, Webpack, GulpJS and GIT.",
       },
     ],
   },
@@ -51,7 +51,7 @@ export const experience = [
         title: "Frontend Developer",
         period: "Jul 2011 – Jul 2015",
         responsibilities:
-          "Working as Freelance has helped me to face a lot of problems which gained me a lot of experience, and pushing me to always learn to stuff to keep up.",
+          "Working as Freelance has helped me to face a lot of problems which gained me a lot of experience, and pushing me to always learn new stuff to keep up.",
       },
       {
         title: "UI Developer",
