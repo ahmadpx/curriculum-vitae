@@ -14,15 +14,18 @@ function Skills() {
     <Wrapper>
       <SectionTitle>Skills</SectionTitle>
       <SkillsList>
-        <Skill>JavaScript, VueJS, AngularJS, React.js, jQuery, JSX, AJAX</Skill>
-        <Skill>HTML5, CSS3 , SASS , PostCSS, SEO</Skill>
+        <Skill>TypeScript, JavaScript, NextJS, React, React Native, Vue, JQuery, JSX, AJAX</Skill>
+        <Skill>Mobx, Redux</Skill>
+        <Skill>HTML5, CSS3, SASS, PostCSS, SEO</Skill>
         <Skill>BEM, ITCSS</Skill>
         <Skill>Git, Github, Bitbucket</Skill>
-        <Skill>Webpack, Gulp , Yarn , NPM, Bower, Yeoman</Skill>
-        <Skill>Unit test, Jest</Skill>
+        <Skill>Lerna, TruboRepo, Gluegun</Skill>
+        <Skill>Yarn, NPM Webpack, Parcel, Gulp, Bower, Yeoman</Skill>
+        <Skill>Amplitude, Customer.io, DataDog</Skill>
+        <Skill>Storybook, Unit testing, Jest</Skill>
         <Skill>OOP, MVC, Design Patterns, Algorithms</Skill>
-        <Skill>APIs, REST</Skill>
-        <Skill>NodeJS, PHP</Skill>
+        <Skill>APIs, REST, SQL</Skill>
+        <Skill>NodeJS, Ruby, Rails</Skill>
         <Skill>Agile, JIRA, Youtrack, Teamwork, Research</Skill>
         <Skill>Photoshop, Adobe Illustrator, Edge Animate</Skill>
       </SkillsList>

@@ -61,14 +61,10 @@ function Experience() {
     <Wrapper>
       <SectionTitle align={"left"}>PROFESSIONAL EXPERIENCE</SectionTitle>
 
-      {experience.map(({ company, brands, titles }) => (
+      {experience.map(({ company, url, brands, titles }) => (
         <Company key={company}>
           <CompanyTitle>
-            {brands.length === 0 && company}
-            {brands.length === 1 && (
-              <a href={brands[0].url}>{brands[0].title}</a>
-            )}
-            {brands.length > 1 && (
+            {brands.length > 0 ? (
               <>
                 {company} (
                 {brands.map((brand) =>
@@ -82,7 +78,7 @@ function Experience() {
                 )}
                 )
               </>
-            )}
+            ) : (url ? <a href={url}>{company}</a> : company)}
           </CompanyTitle>
 
           {titles.map(({ title, period, responsibilities }) => (

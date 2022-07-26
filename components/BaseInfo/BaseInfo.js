@@ -51,7 +51,7 @@ function BaseInfo() {
   return (
     <Wrapper>
       <Avatar
-        src="//media-exp1.licdn.com/dms/image/C5603AQF-SSY0kL17FQ/profile-displayphoto-shrink_400_400/0/1547273969335?e=1622073600&v=beta&t=JYihBcs9bg43-MScCZJh4rC_pQSMmI8akORZyTEK5fM"
+        src="https://i.imgur.com/PcMkKX7.png"
         alt="Ahmed Abdallah"
       />
 
