@@ -20,7 +20,7 @@ function Skills() {
         <Skill>BEM, ITCSS</Skill>
         <Skill>Git, Github, Bitbucket</Skill>
         <Skill>Lerna, TruboRepo, Gluegun</Skill>
-        <Skill>Yarn, NPM Webpack, Parcel, Gulp, Bower, Yeoman</Skill>
+        <Skill>Yarn, NPM, Webpack, Parcel, Gulp, Bower, Yeoman</Skill>
         <Skill>Amplitude, Customer.io, DataDog</Skill>
         <Skill>Storybook, Unit testing, Jest</Skill>
         <Skill>OOP, MVC, Design Patterns, Algorithms</Skill>
