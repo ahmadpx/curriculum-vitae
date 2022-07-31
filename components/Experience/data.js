@@ -20,7 +20,7 @@ export const experience = [
           Client experimentation infra setup for Multi-varaint experiments, 
           Infra setup for splitting experiment exposure from assignment,
           Abandoned cart email and
-          Digest email (new Arrivals).`,
+          Digest email (new Arrivals)`,
       },
     ],
   },
